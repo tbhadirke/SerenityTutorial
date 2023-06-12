@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="com.serenity.junit.CRUD_Operation_FakeStore" skipped="0" tests="2" time="11.05" timestamp="2023-06-02 12:33:00"><testcase classname="com.serenity.junit.CRUD_Operation_FakeStore" name="This is to add new product in cart."/><testcase classname="com.serenity.junit.CRUD_Operation_FakeStore" name="This is to get all carts"><failure message="1 expectation failed.&#10;Expected header &quot;Transfer-Encoding&quot; was not &quot;chnked&quot;, was &quot;chunked&quot;. Headers are:&#10;Date=Fri, 02 Jun 2023 07:03:14 GMT&#10;Content-Type=application/json; charset=utf-8&#10;Transfer-Encoding=chunked&#10;Connection=keep-alive&#10;Access-Control-Allow-Origin=*&#10;Etag=W/&quot;3a8-j3C8983spvK8GpaSYa+SyYlAS2A&quot;&#10;X-Powered-By=Express&#10;CF-Cache-Status=DYNAMIC&#10;Report-To={&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ol5agRuMf5%2FLWGmCEXjhadSaRa9zeuz7nMaF3DQgt%2F%2BvmmZryzQE%2BSVuZOIKtXqTY7V1By0Dtx2ol1C6e6LYt7uslo%2F3miDIBEuuEGuQLii8zzkDQTa%2BTrsGqnRtjfGPEYiJ&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#10;NEL={&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#10;Server=cloudflare&#10;CF-RAY=7d0dd5d44c111bfc-BOM&#10;Content-Encoding=gzip&#10;alt-svc=h3=&quot;:443&quot;; ma=86400&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected header "Transfer-Encoding" was not "chnked", was "chunked". Headers are:
+Date=Fri, 02 Jun 2023 07:03:14 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Etag=W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By=Express
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ol5agRuMf5%2FLWGmCEXjhadSaRa9zeuz7nMaF3DQgt%2F%2BvmmZryzQE%2BSVuZOIKtXqTY7V1By0Dtx2ol1C6e6LYt7uslo%2F3miDIBEuuEGuQLii8zzkDQTa%2BTrsGqnRtjfGPEYiJ"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=7d0dd5d44c111bfc-BOM
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400
+</failure><system-err>1 expectation failed.
+Expected header "Transfer-Encoding" was not "chnked", was "chunked". Headers are:
+Date=Fri, 02 Jun 2023 07:03:14 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Etag=W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By=Express
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ol5agRuMf5%2FLWGmCEXjhadSaRa9zeuz7nMaF3DQgt%2F%2BvmmZryzQE%2BSVuZOIKtXqTY7V1By0Dtx2ol1C6e6LYt7uslo%2F3miDIBEuuEGuQLii8zzkDQTa%2BTrsGqnRtjfGPEYiJ"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=7d0dd5d44c111bfc-BOM
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)&#13;
+com.serenity.cucumber.steps.ReusableSteps.getProducts(ReusableSteps.java:44)&#13;
+com.serenity.junit.CRUD_Operation_FakeStore.test002(CRUD_Operation_FakeStore.java:73)&#13;
+org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
